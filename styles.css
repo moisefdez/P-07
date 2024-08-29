@@ -20,4 +20,19 @@
     height: 500px;
     background-color: white;
     box-shadow:  20px 20px 30px #4e3b24;
+
+    display: flex;
+    align-items: center;
+
+}
+
+#menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+#menu ul{
+    display: flex; 
 }
