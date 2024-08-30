@@ -31,8 +31,26 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    border: 1px solid #ccc;
 }
 #menu ul{
     display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
+
+#menu ul li{
+    width: 70px;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ebe9e9;
+    box-shadow: 5px 5px 10px #ebe9e9 ;
+    border-radius: 50px;
+}
+
+.material-symbols-outlined{
+    font-size: 30px !important;
+}
+
+
