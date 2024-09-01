@@ -47,10 +47,42 @@
     border: 1px solid #ebe9e9;
     box-shadow: 5px 5px 10px #ebe9e9 ;
     border-radius: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 500ms;
+    cursor: pointer;
+}
+
+#menu ul li:hover{
+    width: 130px;
+    background-color: violet;
+    border: 1px solid violet;
+    box-shadow: 5px 5px 10px violet ;
 }
 
 .material-symbols-outlined{
+   transform: scale(1);
+    color: #333;
     font-size: 30px !important;
+    transition: opacity 250ms ease-in-out;
+
 }
 
+#menu ul li:hover .material-symbols-outlined{
+    transform: scale(0);
+}
 
+.text{
+    transform: scale(0);
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#menu ul li:hover .text{
+    transform: scale(1);
+
+}
